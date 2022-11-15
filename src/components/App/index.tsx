@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import type { FC } from 'react';
 import { useState } from 'react';
 import s from './index.module.scss';
-import reactLogo from '~/assets/react.svg';
+import reactLogo from '~/assets/image/react.svg';
 import '@fourdigit/sanitize-4d.css';
 
 const App: FC = () => {
