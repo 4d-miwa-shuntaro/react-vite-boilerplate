@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "mrmlnc.vscode-scss",
+    "visualstudioexptteam.vscodeintellicode",
+    "formulahendry.auto-rename-tag",
+    "oderwat.indent-rainbow",
+    "yusukehirao.vscode-markuplint"
+  ]
+}
