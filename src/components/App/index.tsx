@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from '~/assets/react.svg'
 import s from './index.module.scss'
+import '@fourdigit/sanitize-4d.css';
 import clsx from 'clsx'
 
 function App() {
