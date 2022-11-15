@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "plugins": ["import"],
+  "extends": ["@fourdigit/eslint-config-fourdigit/esnext", "plugin:import/typescript", "plugin:@typescript-eslint/recommended"],
+  "parser":"@typescript-eslint/parser",
+  "rules": {
+    "sort-imports": 0,
+    "import/order": [2, { "alphabetize": { "order": "asc" } }],
+    "@typescript-eslint/consistent-type-imports": [
+      2,
+      {
+        "prefer": "type-imports"
+      }
+    ]
+  }
+}

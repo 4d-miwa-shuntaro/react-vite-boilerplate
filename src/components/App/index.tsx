@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import reactLogo from '~/assets/react.svg'
-import s from './index.module.scss'
+import clsx from 'clsx';
+import type { FC } from 'react';
+import { useState } from 'react';
+import s from './index.module.scss';
+import reactLogo from '~/assets/react.svg';
 import '@fourdigit/sanitize-4d.css';
-import clsx from 'clsx'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App: FC = () => {
+  const [count, setCount] = useState(0);
 
   return (
     <div className={s.App}>
@@ -19,18 +20,14 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className={s.card}>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className={s.read}>
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className={s.read}>Click on the Vite and React logos to learn more</p>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
